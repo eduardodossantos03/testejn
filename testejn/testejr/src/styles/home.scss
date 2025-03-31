@@ -1,0 +1,43 @@
+/* Navegação */
+.nav-top {
+    gap: 110px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .logo {
+    margin-left: 23px;
+    margin-top: 47px;
+    display: inline;
+  }
+  
+  #buscar {
+    width: 630px;
+    height: 48px;
+    margin-left: 95px;
+    border-radius: 8px;
+    background-color: #F6F5F2;
+    margin-top: 44px;
+    margin-bottom: 20px;
+  }
+  
+  .icones {
+    width: 216px;
+    height: 32px;
+    display: inline-flex;
+    justify-content: space-between;
+    margin-left: 120px;
+  }
+  
+  .lista li {
+    margin-left: 80px;
+    margin-top: 60px;
+    list-style-type: none;
+    display: inline-flex;
+    justify-content: space-evenly;
+    width: 150px;
+    height: 20px;
+    font-size: 18px;
+    color: #9F9F9F;
+  }
+  

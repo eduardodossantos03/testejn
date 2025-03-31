@@ -1,0 +1,53 @@
+/* Formulário */
+.formulario {
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 30px;
+  padding: 25px ;
+  display: flex;
+  gap: 20px; 
+  background-color: #271C47;
+  color: white;
+}
+
+.inscricao{
+  width: 50%;
+}
+
+
+
+.input input {
+  border-radius: 10px;
+  width: 190px; 
+  height: 35px;
+  margin-left: 5px;
+  margin-top: 20px;
+}
+
+#button {
+  background-color: #F7CA11;
+  height: 40px;
+  border-radius: 9px;
+  border: none;
+  cursor: pointer;
+  width: 100px;
+  align-items: center;
+  justify-content: center;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  gap: 5px; 
+}
+
+.checkbox input {
+  margin-top: 2px;
+  width: auto; 
+  height: auto; 
+}
+
+.checkbox p {
+  margin: 0; 
+  font-size: 14px; 
+}
