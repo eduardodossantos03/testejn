@@ -6,11 +6,10 @@ footer {
   }
   
   .rodape {
-    max-width: 1200px;
-    margin-top: 25px;
+    max-width: 100%;
     padding: 0 20px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: flex-start;
     flex-wrap: wrap;
   }
@@ -20,12 +19,14 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    margin-top: 10px;
   }
   
   .footer-subtitle h2 {
     margin-top: 10px;
     font-size: 18px;
     color: #333;
+    gap: 15px;
   }
   
   .text-footer {

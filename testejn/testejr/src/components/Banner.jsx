@@ -21,22 +21,65 @@ const Banner = () => {
       <section className="banner-container">
         <div className="blackfriday">
           <h1>Venha conhecer nossas promoções!</h1>
-          <h2>50% OFF em produtos selecionados!</h2>
+          <h2 className="frase">
+      <span className="green">50% off </span> 
+      <span className='white'>nos Produtos</span>
+    </h2>
           <button>Ver Produtos</button>
         </div>
       </section>
 
       <section>
         <div className="sessoes">
-          <ul>
-          <img src="./src/assets/tecnologia.png" alt="computador" />
-          <img src="./src/assets/mercado.png" alt="Mercado" />
-          <img src="./src/assets/bebidas.png" alt="garrafa" />
-          <img src="./src/assets/martelo.png" alt="materlo" />
-          <img src="./src/assets/saude.png" alt="saude" />
-          <img src="./src/assets/corrida.png" alt="corredors" />
-          <img src="./src/assets/moda.png" alt="roupas" />
-          </ul>
+
+        <div className="category-card ">
+            <div className="category-img">
+            <img src="./src/assets/components/Tecno.svg" alt="Supermercado" className="icon" />
+            </div>
+            <p className="category-name">Tecnologia</p>
+          </div>
+
+          <div className="category-card">
+            <div className="category-img">
+            <img src="./src/assets/components/Mercado.svg" alt="Supermercado" className="icon" />
+            </div>
+            <p className="category-name">Supermercado</p>
+          </div>
+
+        <div className="category-card">
+            <div className="category-img">
+            <img src="./src/assets/components/Bebida.svg" alt="Bebidas" className="icon" />
+            </div>
+            <p className="category-name">Bebidas</p>
+          </div>
+
+          <div className="category-card">
+            <div className="category-img">
+            <img src="./src/assets/components/Ferramentas.svg" alt="ferramentas" className="icon" />
+            </div>
+            <p className="category-name">Ferramentas</p>
+          </div>
+          
+          <div className="category-card">
+            <div className="category-img">
+            <img src="./src/assets/components/Saude.svg" alt="Saude" className="icon" />
+            </div>
+            <p className="category-name">Saúde</p>
+          </div>
+          
+          <div className="category-card">
+            <div className="category-img">
+            <img src="./src/assets/components/Corrida.svg" alt="esporte" className="icon" />
+            </div>
+            <p className="category-name">Esporte e fitness</p>
+          </div>
+
+          <div className="category-card">
+            <div className="category-img">
+            <img src="./src/assets/components/moda.svg" alt="Moda" className="icon" />
+            </div>
+            <p className="category-name">Moda</p>
+          </div>
         </div>
       </section>
     </>

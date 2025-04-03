@@ -6,10 +6,12 @@ function Footer() {
   return (
     <footer className="rodape">
       <div className="footer-logo">
-        <img src="./src/assets/Group 35 (1).png" alt="Logo" />
+      <img src="./src/assets/logo.svg" alt="computador" /> 
         <div className="footer-subtitle">
           <h2>Lorem ipsum dolor sit amet consectetur.</h2>
-          <img src="./src/assets/Frame 83.png" alt="Redes sociais" />
+          <img src="./src/assets/icons/insta.svg" alt="Redes sociais" />
+          <img src="./src/assets/icons/face.svg" alt="Redes sociais" />
+          <img src="./src/assets/icons/linkedin.svg" alt="Redes sociais" />
         </div>
       </div>
       <div className="text-footer">
@@ -41,6 +43,10 @@ function Footer() {
     </footer>
   );
 }
+
+
+
+
 
 export default Footer;
 

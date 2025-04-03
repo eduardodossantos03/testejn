@@ -6,16 +6,30 @@ function Home() {
     <>
       <nav>
         <div className="nav-top">
-          <img src="../src/assets/Frame 2364.png" alt="Imagem do topo" />
+        <p className="frase">
+      <span><img id="img" src="./src/assets/icons/checknav.svg" alt="caminhao" /> </span>
+      <span className="gray">Compra </span> 
+      <span className="blue">100% segura</span> 
+    </p>
+    <p className="frase">
+      <span><img id="img" src="./src/assets/icons/Truck.svg" alt="caminhao" /> </span>
+      <span className="blue">Frete grátis </span> 
+      <span className="gray">acima de R$200</span> 
+    </p>
+    <p className="frase">
+    <span><img id="img" src="./src/assets/icons/cartao.svg" alt="caminhao" /> </span>
+      <span className="blue">Parcele </span> 
+      <span className="gray">suas compras</span> 
+    </p>
         </div>
         <div className="logo">
-          <img src="./src/assets/Group 35 (1).png" alt="Logo" />
+        <img id="logo" src="./src/assets/logo.svg" alt="caminhao" />
           <input type="text" placeholder="O que está buscando?" id="buscar" />
           <div className="icones">
-            <img src="../src/assets/Group.png" alt="Ícone de grupo" />
-            <img src="../src/assets/Heart.png" alt="Ícone de coração" />
-            <img src="../src/assets/UserCircle.png" alt="Ícone de usuário" />
-            <img src="../src/assets/ShoppingCart.png" alt="Ícone de carrinho" />
+            <img src="../src/assets/icons/Group.svg" alt="Ícone de grupo" />
+            <img src="../src/assets/icons/Heart.svg" alt="Ícone de coração" />
+            <img src="../src/assets/icons/UserCircle.svg" alt="Ícone de usuário" />
+            <img src="../src/assets/icons/Carrinho.svg" alt="Ícone de carrinho" />
           </div>
         </div>
       </nav>

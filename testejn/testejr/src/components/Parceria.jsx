@@ -8,11 +8,11 @@ function Parceria() {
                 <h1>Navegue por Marcas</h1>
             </div>
             <div className="nav-marca">
-                    <img src="./src/assets/Group 1172.png" alt="Logo" />
-                    <img src="./src/assets/Group 1172.png" alt="Logo" />
-                    <img src="./src/assets/Group 1172.png" alt="Logo" />
-                    <img src="./src/assets/Group 1172.png" alt="Logo" />
-                    <img src="./src/assets/Group 1172.png" alt="Logo" />
+                    <img src="./src/assets/background/Group 1172.png" alt="Logo" />
+                    <img src="./src/assets/background/Group 1172.png" alt="Logo" />
+                    <img src="./src/assets/background/Group 1172.png" alt="Logo" />
+                    <img src="./src/assets/background/Group 1172.png" alt="Logo" />
+                    <img src="./src/assets/background/Group 1172.png" alt="Logo" />
             </div>
         </section>
     );

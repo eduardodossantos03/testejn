@@ -10,15 +10,26 @@
     }
   }
   
+  .produtos ul{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .produtos :hover{
+    color: #3442B5;
+  }
+
+
   .produtos li {
     border: 1px solid;
     padding: 15px;
     align-items: center;
     display: inline-flex;
-    justify-content: space-around;
-    margin-left: 4%;
-    border-radius: 8px;
+    justify-content: center;
+    border-radius: 5px;
     color: gray;
+    flex-wrap: wrap;
   }
   
   .cards {
@@ -34,7 +45,7 @@
     border: 1px solid #ddd;
     border-radius: 10px;
     padding: 20px;
-    width: 300px;
+    width: 100%;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
